@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>🔋 Chess Milosz</title>
+    <meta charset="UTF-8">
+    <title>Uruchom aplikację</title>
 </head>
 <body>
- <iframe src="https://script.google.com/macros/s/AKfycbyY6zJRWAeVX7ypPcPsiQEU7ZrrhwXeHMWSd3JhkZfgdxikfFI_vZc2cCn7-3cZJibb/exec" style="border: none;" width="100%" height="1100px" scrolling="no"></iframe>
+    <h1>Uruchom aplikację</h1>
+    <p>Kliknij poniższy przycisk, aby uruchomić aplikację:</p>
+    <button onclick="openApp()">Uruchom aplikację</button>
 
+    <script>
+        function openApp() {
+            var scriptUrl = "https://script.google.com/macros/s/AKfycbyY6zJRWAeVX7ypPcPsiQEU7ZrrhwXeHMWSd3JhkZfgdxikfFI_vZc2cCn7-3cZJibb/exec";
+            // Zmień "ENTER_YOUR_SCRIPT_ID_HERE" na ID Twojego skryptu
+            window.open(scriptUrl, "_blank");
+        }
+    </script>
 </body>
 </html>
+
+
